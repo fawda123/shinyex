@@ -15,7 +15,7 @@ plotcatch <- function(name, szrng, gearsel, datin){
       x = NULL,
       y = 'Total catch', 
       title = paste0(name, " catch in gear ", gearsel), 
-      subtitle = paste0("Data subset to average size between ", szrng[1], '-', szrng[2], " inches")
+      subtitle = paste0("Data subset to average size between ", szrng[1], '-', szrng[2], " mm")
     )
   
   p 

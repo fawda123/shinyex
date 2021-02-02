@@ -1,0 +1,12 @@
+---
+output: github_document
+---
+
+# README
+
+Example Shiny application for plotting FIM catch data.
+
+```{r, echo = F}
+fs::dir_tree()
+```
+
