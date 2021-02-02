@@ -5,6 +5,6 @@ account: beckmw
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3568463
-bundleId: 4172228
+bundleId: 4172299
 url: https://beckmw.shinyapps.io/shinyex/
-when: 1612291144.09457
+when: 1612292325.83973

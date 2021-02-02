@@ -42,7 +42,7 @@ server <- function(input, output){
       pull(avg_size) %>% 
       range(na.rm = T)
     
-    sliderInput(inputId = 'sizesel', label  = 'Select size range (in)', 
+    sliderInput(inputId = 'sizesel', label  = 'Select size range (mm)', 
                 min = size[1], max = size[2], value = size)
     
   })
