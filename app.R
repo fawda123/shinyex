@@ -2,7 +2,7 @@ library(shiny)
 library(tidyverse)
 
 source('R/functions.R')
-data(otbfimdat)
+otbfimdat <- read.csv('data/otbfimdat.csv')
 
 # get selection options
 fish <- unique(otbfimdat$Commonname)
